@@ -1,0 +1,16 @@
+//- Button styles
+
+.btn {
+  height: 50px;
+  border-radius: 3px;
+  padding: 10px;
+  border: 2px solid #ff5733;
+  color: #ff5733;
+  font-weight: bold;
+  background-color: #fff;
+  &:hover {
+    cursor: pointer;
+    background-color: #ff5733;
+    color: #fff;
+  }
+}
